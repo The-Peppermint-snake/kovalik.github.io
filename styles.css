@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 
-:root {
+:root{
     --light: #efeae5;
     --light-accent: #8b978f;
     --main-color: #8392a0;
@@ -17,7 +17,7 @@
   Font-size: 20px
 }
 
-.navbar {
+.navbar{
    list-style-type: none;
    Margin: 0;
    Padding: 0;
