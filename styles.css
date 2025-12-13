@@ -1,0 +1,30 @@
+*
+{
+  box-sizing: border-box;
+}
+
+:root {
+    --light: #efeae5;
+    --light-accent: #8b978f;
+    --main-color: #8392a0;
+    --dark-accent: #7c8280;
+    --dark: #2e2c2f;
+}
+
+.name{
+  color: var(--dark);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  Font-size: 20px
+}
+
+.navbar {
+   list-style-type: none;
+   Margin: 0;
+   Padding: 0;
+}
+
+.pfp{
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+}
