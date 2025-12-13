@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
-    <nav class="navbar">
-        <ul>
+<body>
+    <nav>
+        <ul  class="navbar">
             <li><a href="index.html">Home</a></li>
             <li><a href="interests.html">Interests</a></li>
             <li><a href="contact.html">Contact</a></li>
@@ -16,7 +18,19 @@
 
     <h1>Contact Information</h1>
     <section>
-    <p><strong>Email:</strong> brkovalik@gmail.com</p>
-</section>
+        <p><strong>Email:</strong> brkovalik@gmail.com</p>
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <input type="message" id="message" name="message" minlength="10" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
 </body>
 </html>
